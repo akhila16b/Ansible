@@ -1,9 +1,22 @@
+#- name: ping demo
+ # hosts: local
+  #connection: local
+  #tasks: #tasks = modules = collections
+  #- name: ping localhost
+   # ping:
+  #- name: print hello world
+   # ansible.builtin.debug:
+    #  msg: "Hello Ansible..!"
+
+
 - name: ping demo
   hosts: local
   connection: local
-  tasks: #tasks = modules = collections
-  - name: ping localhost
-    ping:
-  - name: print hello world
-    ansible.builtin.debug:
-      msg: "Hello Ansible..!"
+#tasks = modules = collections
+  tasks:
+    - name: ping localhost
+      ping:
+
+    - name: print hello world
+      ansible.builtin.debug:
+        msg: "Hello Ansible..!"
