@@ -4,4 +4,5 @@
   tasks: #tasks = modules = collections
   - name: ping localhost
     ping:
-    
+  - name: print hello world
+    amsible.builtin.debug:
