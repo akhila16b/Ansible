@@ -5,4 +5,4 @@
   - name: ping localhost
     ping:
   - name: print hello world
-    amsible.builtin.debug:
+    ansible.builtin.debug:
