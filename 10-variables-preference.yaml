@@ -1,10 +1,6 @@
 - name: variables from files
   hosts: local
   connection: local
-  vars:
-    course: "ansible from play"
-
-
   tasks:
   - name: print course info
     
