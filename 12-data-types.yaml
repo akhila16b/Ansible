@@ -1,0 +1,25 @@
+- name: course info
+  hosts: local
+  connection: local
+  vars:
+  course: "Devops"
+  duration: 10
+  is_live_sessions: true
+  topics:
+  - Linux
+  - Ansible
+  - Shell scripting
+  more_details:
+    trainer: Sivakumar
+    months: 4
+    exact_duration_in_months: 4.5
+    tasks:
+    - name: print info and type
+      debug:
+      msg: |
+        name: "{{ course }}" : "{{ course | type debug }}"
+        duration: {{ duration }} : {{ duration | type debug }}
+        is live: {{ is_live_sessions }} : {{ is_live_sessions | type_debug }} 
+        topics are: {{ topics }} : {{ topics | type_debug }} 
+        more details: {{ more_details }} : {{ more_details | type_debug }} 
+        duration: {{ exact_duration_in_months }} : {{ exact_duration_in_months | type_debug }} 
