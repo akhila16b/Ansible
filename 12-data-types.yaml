@@ -5,10 +5,10 @@
     course: "Devops"
     duration: 10
     is_live_sessions: true
-  topics:
-  - Linux
-  - Ansible
-  - Shell scripting
+    topics:
+      - Linux
+      - Ansible
+      - Shell scripting
   more_details:
     trainer: Sivakumar
     months: 4
