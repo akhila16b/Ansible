@@ -1,4 +1,4 @@
-- name: course info
+- name: info
   hosts: local
   connection: local
   vars:
