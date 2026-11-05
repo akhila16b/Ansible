@@ -6,12 +6,12 @@
     duration: 10
     is_live_sessions: true
     topics:
-      - Linux
-      - Ansible
-      - Shell scripting
-  more_details:
-    trainer: Sivakumar
-    months: 4
+    - Linux
+    - Ansible
+    - Shell scripting
+    more_details:
+      trainer: Sivakumar
+      months: 4
     exact_duration_in_months: 4.5
     tasks:
     - name: print info and type
