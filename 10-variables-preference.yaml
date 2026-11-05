@@ -7,8 +7,7 @@
   - name: course
     prompt: please enter your course
     private: false
-  vars_files:
-  - course.yaml
+
   tasks:
   - name: print course info
     
