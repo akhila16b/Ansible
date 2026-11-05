@@ -14,7 +14,7 @@
 
     - name: create user
       command: useradd roboshop
-      when: user_output.rc ! = 0
+      when: user_output.rc != 0
 
 
 #if you run command and take output into a variable in ansible, we can use register keyword
