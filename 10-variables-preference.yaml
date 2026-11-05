@@ -3,10 +3,7 @@
   connection: local
   vars:
     course: "ansible from play"
-  vars_prompt:
-  - name: course
-    prompt: please enter your course
-    private: false
+
 
   tasks:
   - name: print course info
