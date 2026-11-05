@@ -13,7 +13,7 @@
   - name: print course info
     
     debug:
-      msg: 'Hi, I am learning "{{ prompt }}"'
+      msg: "Hi, I am learning {{ course }}"
 
 # 1. CMD
 # 2. task
